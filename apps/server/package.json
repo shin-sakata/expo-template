@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@packages/api": "*",
+    "@trpc/server": "^10.45.0"
+  },
+  "devDependencies": {
+    "@packages/typescript-config": "*",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
