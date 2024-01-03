@@ -1,10 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import { api } from "../trpc";
 
 export default function Home() {
+  const { data } = api.greeting.useQuery({ name: "John" });
+
   return (
     <View style={styles.container}>
-      <Text>Open up src/app/index.tsx to start working on your app!</Text>
+      <Text>{data}</Text>
       <StatusBar style="auto" />
     </View>
   );

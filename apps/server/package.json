@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@packages/typescript-config": "*",
-    "ts-node-dev": "^2.0.0",
+    "ts-node": "github:TypeStrong/ts-node#main",
     "typescript": "^5.3.3"
   }
 }
