@@ -2,7 +2,7 @@
   "name": "expo-template",
   "private": true,
   "workspaces": [
-    "apps/a",
+    "apps/*",
     "packages/*"
   ]
 }
